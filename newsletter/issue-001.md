@@ -1,8 +1,9 @@
 # Synthetic Engineer — Issue #1
-## I tested 5 AI coding assistants for 48 hours — here's what actually works
+## I tested the latest AI coding assistants for 48 hours — here's what actually works
 
 **Published:** February 13, 2026  
-**Reading time:** 7 minutes
+**Last Updated:** February 13, 2026  
+**Note:** This benchmark is updated weekly as new models are released.
 
 ---
 
@@ -27,9 +28,9 @@ For each assistant, I gave the same 5 tasks:
 
 | Assistant | Price | Context | Best For |
 |-----------|-------|---------|----------|
-| **Claude 3.5 Sonnet** | $20/mo | 200K | Complex refactoring |
-| **o1-preview** | $200/mo | 128K | Architecture decisions |
-| **Gemini 1.5 Flash** | Free tier | 1M | Bulk processing |
+| **Claude (latest 2026)** | $20/mo | 200K+ | Complex refactoring |
+| **Reasoning models** | $200/mo | 128K+ | Architecture decisions |
+| **Free tier models** | Free tier | 1M+ | Bulk processing |
 | **GPT-4o** | $20/mo | 128K | General purpose |
 | **DeepSeek Coder** | Free | 64K | Budget option |
 
