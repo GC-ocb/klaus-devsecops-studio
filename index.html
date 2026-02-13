@@ -241,9 +241,11 @@
             <h2 class="newsletter-title">Get the weekly digest</h2>
             <p class="newsletter-desc">Every Friday: 1 AI tool tested in-depth, 3 quick wins you can implement today, and my actual prompts (copy-paste ready).</p>
             
-            <form action="https://buttondown.email/api/emails/embed-subscribe/synthetic-engineer" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/synthetic-engineer', 'popupwindow')">
+            <form action="https://formspree.io/f/xjvqgkgy" method="POST">
                 <div class="form-group">
                     <input type="email" name="email" placeholder="your@email.com" required>
+                    <input type="hidden" name="_subject" value="New Synthetic Engineer Subscriber">
+                    <input type="hidden" name="_next" value="https://gc-ocb.github.io/klaus-devsecops-studio/thanks.html">
                     <button type="submit" class="btn">Subscribe Free</button>
                 </div>
             </form>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're In! | Synthetic Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f172a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        
+        .logo {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #94a3b8;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+        
+        .highlight {
+            color: #10b981;
+            font-weight: 600;
+        }
+        
+        .next-steps {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 32px;
+            margin-top: 32px;
+            text-align: left;
+        }
+        
+        .next-steps h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .next-steps ul {
+            list-style: none;
+            color: #94a3b8;
+        }
+        
+        .next-steps li {
+            padding: 8px 0;
+            padding-left: 28px;
+            position: relative;
+        }
+        
+        .next-steps li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 32px;
+            color: #10b981;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎉</div>
+        <h1>You're In!</h1>
+        <p class="subtitle">
+            Welcome to <span class="highlight">Synthetic Engineer</span>.<br>
+            First issue hits your inbox this Friday.<noinput>        </p>
+        <a href="/klaus-devsecops-studio/" class="back-link">← Back to homepage</a>
+        
+        <div class="next-steps">
+            <h2>What happens next:</h2>
+            <ul>
+                <li>Check your inbox Friday morning (9 AM EST)</li>
+                <li>First issue: "I automated my deployment reviews"</li>
+                <li>Reply to any email — I read every single one</li>
+                <li>Forward to your teammate who needs this</li>
+            </ul>
+        </div>
+        
+        <a href="/klaus-devsecops-studio/" class="back-link">← Read Issue #1 while you wait</a>
+    </div>
+</body>
+</html>
